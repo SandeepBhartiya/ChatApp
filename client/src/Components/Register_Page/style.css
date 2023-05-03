@@ -1,0 +1,40 @@
+
+.container{
+    width:50vh;
+    height:50vh;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vw;
+}
+
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type=text]{
+    
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type=password]{
+    text-align: center;
+}
+
+.btn{
+    /* text-align:center; */
+    width:50%;
+    height:7vh;
+    cursor: pointer;
+    background-color: blueviolet;
+    color:rgb(116, 0, 0);
+}
+
+.btn:hover{
+    background-color: rgb(177, 118, 231);
+}
